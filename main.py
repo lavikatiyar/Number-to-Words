@@ -61,7 +61,7 @@ def convert_to_words(number):
     count -= 1
 
   final_words = ''
-  for s in reversed(words):
+  for s in reversed(words):    # The reversed() method computes the reverse of a given sequence object and returns it in the form of a list.
     final_words += (s + ' ')
 
   return final_words
